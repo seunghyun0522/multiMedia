@@ -18,7 +18,6 @@ int main() {
 			CvScalar g;
 			for (int k = 0; k < 3; k++)
 				g.val[k] = c.val[k] * avg;
-		
 
 
 			cvSet2D(dst, y, x, g);

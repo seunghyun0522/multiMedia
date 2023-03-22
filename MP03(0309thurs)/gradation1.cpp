@@ -18,9 +18,9 @@ int main() {
 		for (int x = 0; x < w; x++) {
 
 			float nx =float(x)/ (w-1);
-			float ny = y;
 
 			float a = nx;	//(1-a)
+
 			CvScalar c = cvScalar(0, 0, 0);
 			for(int k=0;k<3;k++)
 				c.val[k] = a * c1.val[k] + (1 - a) * c2.val[k];

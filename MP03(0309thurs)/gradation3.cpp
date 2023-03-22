@@ -9,7 +9,7 @@ int main() {
 
 	IplImage* img = cvCreateImage(cvSize(w, h), 8, 3);
 
-	cvSet(img, cvScalar(255, 255, 255));
+	cvSet(img, cvScalar(255, 255, 255));	
 	CvScalar c1 = cvScalar(255, 0, 0);
 	CvScalar c2 = cvScalar(0, 0, 255);
 
